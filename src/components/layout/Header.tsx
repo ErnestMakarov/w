@@ -25,7 +25,7 @@ export default function Header() {
               onClick={HandleMenuToggle}
             >
               {isMenuOpen ? (
-                <span className="text-4xl font-light leading-none">×</span>
+                <span className="text-4xl font-light leading-none">X</span>
               ) : (
                 <span className="flex flex-col gap-1.5">
                   <span className="h-0.5 w-6 rounded-full bg-gray-300"></span>
