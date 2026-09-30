@@ -47,11 +47,8 @@ export default function Header() {
           <NavLink to='/todo' onClick={HandleMenuClose}>
             Todo
           </NavLink>
-          <NavLink to='/about' onClick={HandleMenuClose}>
-            About
-          </NavLink>
-          <NavLink to='/contact' onClick={HandleMenuClose}>
-            Contact
+          <NavLink to='/randomfact' onClick={HandleMenuClose}>
+            Random Fact
           </NavLink>
         </nav>
       </div>
