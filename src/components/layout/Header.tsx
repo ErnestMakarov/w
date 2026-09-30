@@ -44,6 +44,9 @@ export default function Header() {
           <NavLink to='/' onClick={HandleMenuClose}>
             Home
           </NavLink>
+          <NavLink to='/todo' onClick={HandleMenuClose}>
+            Todo
+          </NavLink>
           <NavLink to='/about' onClick={HandleMenuClose}>
             About
           </NavLink>
